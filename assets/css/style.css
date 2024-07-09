@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cf9a53f5;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
+nav, #los-trabajos, footer {
+    background-color: #cc811ef5;
+    width: 100vw;
+    padding: 2px 9px 2px 2px;
+}
+
+#encabezado {
+    background-image: url(../image/hombre_desierto.png) ;
+    background-size: cover;
+    color: #913136;
+    width: 100vw;
+}
+
+
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: end;
+}
+
+#formaciones {
+    background-color: #738b67;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    padding: 8px 8px 8px 25px;
+
+}
+
+table tr  {
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+th {
+    background-color: #cc811eef;
+    color: white;
+    padding: 3px 3px 3px 3px;
+}
+
+td {
+    padding: 3px 3px 3px 3px;
+    background-color: white;
+}
+
+.iconos {
+    width: 30px;
+}
+
+#pie, #Contacto, #caracteristicas {
+    width: 100vw;
+}
+
+#redes {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+}
+
+a {
+    text-decoration: none;
+}
