@@ -17,10 +17,20 @@ nav, #los-trabajos, footer {
 }
 
 #encabezado {
+    position: relative;
+    width: 100vw;
+    
+}
+
+.contenedor {
     background-image: url(../image/hombre_desierto.png) ;
     background-size: cover;
     color: #913136;
-    width: 100vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    padding: 30px;
+    
 }
 
 
